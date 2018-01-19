@@ -1,0 +1,35 @@
+.Post {
+  text-align: center;
+}
+
+.Post-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Post-header {
+  background-color: #222;
+  height: 180px;
+  padding: 20px;
+  color: blue;
+}
+
+.Post-title {
+  font-size: 1.5em;
+}
+
+.Post-intro {
+  font-size: large;
+}
+nav{
+  width:100%;
+  margin:auto;
+  background-color: #222;
+}
+.btn{
+margin: 15px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
